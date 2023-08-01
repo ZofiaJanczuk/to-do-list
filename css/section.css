@@ -1,11 +1,12 @@
 .section {
     background-color: white;
-    
 }
 
 .section__header {
     font-size: 20px;
     padding: 20px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
     margin: 0;
 }
+
+
