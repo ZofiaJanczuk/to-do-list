@@ -1,9 +1,12 @@
 # to-do-list
-I've created a to-do list, that can help with daily tasks. :)
+I've created a to-do list that can help managing your daily tasks :)
 
 ## DEMO
+Take a look!
+
 https://zofiajanczuk.github.io/to-do-list/
 
+## Appearance
 ![page appearance](images/to-do-list.png)
 
 ## How to use
