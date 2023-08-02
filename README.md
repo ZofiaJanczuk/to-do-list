@@ -1,5 +1,5 @@
 # to-do-list
-I've created a to-do list that can help managing your daily tasks :)
+I've created a to-do list that can help you manage your daily tasks :)
 
 ## DEMO
 Take a look!
