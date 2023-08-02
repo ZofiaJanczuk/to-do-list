@@ -10,9 +10,17 @@
     border: 1px solid #ddd;
 }
 
+.form__input:hover {
+    border: 1px solid #1f1f1f;
+}
+
 .form__button {
     padding: 10px;
     background-color: #008080;
     color: #ffffff;
     border: none;
+}
+
+.form__button:active {
+    border: 1px solid #1f1f1f;
 }
