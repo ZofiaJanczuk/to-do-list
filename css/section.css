@@ -1,5 +1,7 @@
 .section {
     background-color: white;
+    box-shadow: 0 0 5px #ddd;
+    margin: 10px 0;
 }
 
 .section__header {
@@ -9,4 +11,7 @@
     margin: 0;
 }
 
+.section__body {
+    padding: 20px;
+}
 

@@ -1,7 +1,8 @@
 .tasks {
   list-style: none;
-  padding: 20px;
+  padding: 0px;
   margin: 0px;
+  word-break: break-word; 
 }
 
 .tasks__item {
@@ -24,15 +25,15 @@
 }
 
 .tasks__button--toggleDone {
-  background-color: #008000;
+  background-color: #019d01;
 }
 
 .tasks__button--toggleDone:hover {
-  background-color: #008000ea;
+  background-color: #019d01db;
 }
 
 .tasks__button--toggleDone:active {
-  background-color: #008000d0;
+  background-color: #019d01ba;
 }
 
 .tasks__button--remove {
