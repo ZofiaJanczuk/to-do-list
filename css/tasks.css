@@ -19,6 +19,10 @@
   border: none;
 }
 
+.tasks__content--done {
+    text-decoration: line-through;
+}
+
 .tasks__button--toggleDone {
   background-color: #008000;
 }
@@ -43,6 +47,3 @@
   background-color: #ff003cc7;
 }
 
-.tasks__content--done {
-    text-decoration: line-through;
-}
