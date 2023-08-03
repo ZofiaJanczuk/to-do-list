@@ -1,51 +1,51 @@
 .tasks {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-  word-break: break-word; 
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	word-break: break-word;
 }
 
 .tasks__item {
-  border-bottom: 1px solid #ddd;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  grid-gap: 10px;
-  align-items: center;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	grid-gap: 10px;
+	align-items: center;
 }
 
 .tasks__button {
-  width: 30px;
-  height: 30px;
-  border: none;
-  padding: 0;
+	width: 30px;
+	height: 30px;
+	border: none;
+	padding: 0;
+	transition: 0.4s;
 }
 
 .tasks__content--done {
-    text-decoration: line-through;
+	text-decoration: line-through;
 }
 
 .tasks__button--toggleDone {
-  background-color: #019d01;
+	background-color: #019d01;
 }
 
 .tasks__button--toggleDone:hover {
-  background-color: #019d01db;
+	background-color: #019d01c4;
 }
 
 .tasks__button--toggleDone:active {
-  background-color: #019d01ba;
+	background-color: #019d01a5;
 }
 
 .tasks__button--remove {
-  background-color: #ff003a;
+	background-color: #ff003a;
 }
 
 .tasks__button--remove:hover {
-  background-color: #ff003ce7;
+	background-color: #ff003ccc;
 }
 
 .tasks__button--remove:active {
-  background-color: #ff003cc7;
+	background-color: #ff003ca8;
 }
-
