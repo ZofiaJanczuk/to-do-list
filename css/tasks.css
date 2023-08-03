@@ -14,16 +14,20 @@
 	align-items: center;
 }
 
+.tasks__item--hidden {
+	display: none;
+}
+
+.tasks__content--done {
+	text-decoration: line-through;
+}
+
 .tasks__button {
 	width: 30px;
 	height: 30px;
 	border: none;
 	padding: 0;
-	transition: 0.4s;
-}
-
-.tasks__content--done {
-	text-decoration: line-through;
+	transition: background 0.3s;
 }
 
 .tasks__button--toggleDone {
