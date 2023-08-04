@@ -3,19 +3,14 @@
 	let hideDoneTasks = false;
 
 	const removeTask = (taskIndex) => {
-		tasks = [...tasks.slice(0, taskIndex), ...tasks.slice(taskIndex + 1)];
+		tasks = tasks.filter((task, index) => taskIndex !== index);
 		render();
 	};
 
 	const toggleTaskDone = (taskIndex) => {
-		tasks = [
-			...tasks.slice(0, taskIndex),
-			{
-				...tasks[taskIndex],
-				done: !tasks[taskIndex].done,
-			},
-			...tasks.slice(taskIndex + 1),
-		];
+		tasks = tasks.map((task, index) =>
+			index === taskIndex ? { ...task, done: !task.done } : task
+		);
 		render();
 	};
 
